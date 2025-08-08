@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Reuse Revolution</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1f2;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #d9c2c0;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #1b3b2f;
+            position: relative;
+            overflow: hidden;
+        }
+        .vine {
+            position: absolute;
+            top: 0;
+            width: 100px;
+            animation: sway 4s ease-in-out infinite;
+        }
+        @keyframes sway {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(5deg); }
+        }
+        section {
+            padding: 4rem 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #1b3b2f;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #444;
+        }
+        .impact-box {
+            background-color: #fffaf5;
+            border-left: 5px solid #1b3b2f;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .impact-box strong {
+            color: #1b3b2f;
+        }
+        .social-links a {
+            margin-right: 1rem;
+            text-decoration: none;
+            color: #1b3b2f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="vine-left.png" class="vine" style="left:0;" alt="vine" />
+        <div>Welcome to The Reuse Revolution</div>
+        <img src="vine-right.png" class="vine" style="right:0;" alt="vine" />
+    </header>
+
+    <section id="love-a-mug">
+        <h2>Love-a-Mug</h2>
+        <p><em>Mug off single-use cups and love a reusable mug.</em></p>
+        <p>We froth sustainability – so thanks a latte for helping people and the planet one mug at a time. Our pollution solution? A hug in a mug!</p>
+        <h3>Here’s the tea:</h3>
+        <ul>
+            <li>Single-use cups contain plastic lining and PFAS forever chemicals</li>
+            <li>They harm the environment – releasing greenhouse gases for thousands of years</li>
+            <li>They harm human health – hormone disruptors and microplastics</li>
+        </ul>
+        <p><strong>Australia:</strong> 1.5 billion single-use coffee cups a year – that’s thousands every second.</p>
+        <h3>How we work:</h3>
+        <ul>
+            <li>Mugs donated from City Mission</li>
+            <li>Tub buckets to hold mugs</li>
+            <li>Potential collaborations & proceeds back to charity</li>
+        </ul>
+        <h3>Cleaning:</h3>
+        <p>We’re exploring industrial washer options ($5–10k), and partnerships with churches, hotels, or markets.</p>
+        <div class="impact-box">
+            <h3>CO₂e Savings Tracker</h3>
+            <p>Every time you use a second-hand mug instead of a disposable coffee cup, you avoid approximately <strong>0.025 kg CO₂e</strong>.</p>
+            <p>Our community has already avoided <strong>50,000 disposable cups</strong>, saving about <strong>1.25 tonnes CO₂e</strong>.</p>
+        </div>
+        <h3>QR Code Actions:</h3>
+        <ul>
+            <li>Accept T&Cs</li>
+            <li>Donate via Apple Pay to fund dishwashers, volunteers, and mugs</li>
+            <li>Sign petitions to strengthen single-use bans</li>
+            <li>Follow us on Instagram</li>
+        </ul>
+        <h3>Our Social Enterprise Goals:</h3>
+        <p>We lobby for a ban on single-use and PLA cups in our community. We promote slowing down, sitting down for coffee, and appreciating the moment. We collaborate with pottery makers and grow the mug library movement.</p>
+    </section>
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>We started this project to make reuse the norm. We’re eco-warriors, coffee lovers, and community builders turning small changes into big impacts. Every mug saved from landfill is a win for the planet.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email us: <a href="mailto:hello@reuserevolution.org">hello@reuserevolution.org</a></p>
+    </section>
+
+    <section id="social-media">
+        <h2>Follow Us</h2>
+        <div class="social-links">
+            <a href="https://instagram.com/reuserevolution" target="_blank">Instagram</a>
+        </div>
+    </section>
+</body>
+</html>
